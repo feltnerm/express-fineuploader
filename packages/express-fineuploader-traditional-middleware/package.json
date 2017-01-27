@@ -1,0 +1,45 @@
+{
+  "name": "express-fineuploader-traditional-middleware",
+  "version": "0.0.0",
+  "description": "Express middleware for a FineUploader traditional endpoint",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "check": "npm run lint && npm run coverage",
+    "coverage": "nyc npm test",
+    "lint": "standard",
+    "test": "tape tests/unit/*-test.js tests/unit/**/*-test.js tests/integration/*-test.js tests/integration/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FineUploader/connect-fineuploader-traditional-middleware.git"
+  },
+  "author": "Mark Feltner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FineUploader/connect-fineuploader-traditional-middleware/issues"
+  },
+  "homepage": "https://github.com/FineUploader/connect-fineuploader-traditional-middleware#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "combined-stream": "^1.0.5",
+    "express": "^4.14.0",
+    "mkdirp": "^0.5.1",
+    "multer": "^1.2.1",
+    "rimraf": "^2.5.4"
+  },
+  "devDependencies": {
+    "async": "^2.1.4",
+    "nyc": "^10.1.2",
+    "proxyquire": "^1.7.10",
+    "request": "^2.79.0",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3",
+    "temp-write": "^2.1.0",
+    "uuid": "^3.0.1"
+  }
+}
