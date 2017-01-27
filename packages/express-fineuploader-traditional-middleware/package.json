@@ -1,6 +1,6 @@
 {
   "name": "express-fineuploader-traditional-middleware",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Express middleware for a FineUploader traditional endpoint",
   "main": "index.js",
   "directories": {
