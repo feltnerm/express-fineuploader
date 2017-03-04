@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FineUploader/connect-fineuploader-traditional-middleware.git"
+    "url": "git+https://github.com/feltnerm/express-fineuploader.git"
   },
   "author": "Mark Feltner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FineUploader/connect-fineuploader-traditional-middleware/issues"
+    "url": "https://github.com/feltnerm/express-fineuploader/issues"
   },
-  "homepage": "https://github.com/FineUploader/connect-fineuploader-traditional-middleware#readme",
+  "homepage": "https://github.com/feltnerm/express-fineuploader/tree/master/packages/express-fineuploader-traditional-middleware#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "combined-stream": "^1.0.5",
